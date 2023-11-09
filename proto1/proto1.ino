@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Just use define for values that doesn't fluctate.
 #define MAX_IR 5
 
 /*
@@ -43,7 +44,7 @@ void	setup(void)
 	i = 0;
 	/*
 		TL;DR
-		We use 9600 baud rate because our cable aren't long,
+		We use 9600 baud rate because our cable are long,
 		
 		Longer explanation:
 		Higher baud rate requires more frequent pulse to
